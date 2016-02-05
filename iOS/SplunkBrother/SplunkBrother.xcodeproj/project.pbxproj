@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41AD1BF41C5B236E006BAE62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD1BF31C5B236E006BAE62 /* main.m */; };
+		41AD1BF71C5B236E006BAE62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD1BF61C5B236E006BAE62 /* AppDelegate.m */; };
+		41AD1BFA1C5B236E006BAE62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD1BF91C5B236E006BAE62 /* ViewController.m */; };
+		41AD1BFD1C5B236E006BAE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AD1BFB1C5B236E006BAE62 /* Main.storyboard */; };
+		41AD1BFF1C5B236E006BAE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AD1BFE1C5B236E006BAE62 /* Assets.xcassets */; };
+		41AD1C021C5B236E006BAE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AD1C001C5B236E006BAE62 /* LaunchScreen.storyboard */; };
+		41AD1C0D1C5B236E006BAE62 /* SplunkBrotherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD1C0C1C5B236E006BAE62 /* SplunkBrotherTests.m */; };
+		41AD1C181C5B236E006BAE62 /* SplunkBrotherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD1C171C5B236E006BAE62 /* SplunkBrotherUITests.m */; };
+		41AD1C261C606883006BAE62 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AD1C251C606883006BAE62 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41AD1C091C5B236E006BAE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AD1BE71C5B236E006BAE62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AD1BEE1C5B236E006BAE62;
+			remoteInfo = SplunkBrother;
+		};
+		41AD1C141C5B236E006BAE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AD1BE71C5B236E006BAE62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AD1BEE1C5B236E006BAE62;
+			remoteInfo = SplunkBrother;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41AD1BEF1C5B236E006BAE62 /* SplunkBrother.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplunkBrother.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AD1BF31C5B236E006BAE62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41AD1BF51C5B236E006BAE62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41AD1BF61C5B236E006BAE62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41AD1BF81C5B236E006BAE62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41AD1BF91C5B236E006BAE62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41AD1BFC1C5B236E006BAE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41AD1BFE1C5B236E006BAE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41AD1C011C5B236E006BAE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41AD1C031C5B236E006BAE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AD1C081C5B236E006BAE62 /* SplunkBrotherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplunkBrotherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AD1C0C1C5B236E006BAE62 /* SplunkBrotherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplunkBrotherTests.m; sourceTree = "<group>"; };
+		41AD1C0E1C5B236E006BAE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AD1C131C5B236E006BAE62 /* SplunkBrotherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplunkBrotherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AD1C171C5B236E006BAE62 /* SplunkBrotherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplunkBrotherUITests.m; sourceTree = "<group>"; };
+		41AD1C191C5B236E006BAE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AD1C251C606883006BAE62 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41AD1BEC1C5B236E006BAE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AD1C261C606883006BAE62 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AD1C051C5B236E006BAE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AD1C101C5B236E006BAE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41AD1BE61C5B236E006BAE62 = {
+			isa = PBXGroup;
+			children = (
+				41AD1C251C606883006BAE62 /* CoreLocation.framework */,
+				41AD1BF11C5B236E006BAE62 /* SplunkBrother */,
+				41AD1C0B1C5B236E006BAE62 /* SplunkBrotherTests */,
+				41AD1C161C5B236E006BAE62 /* SplunkBrotherUITests */,
+				41AD1BF01C5B236E006BAE62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41AD1BF01C5B236E006BAE62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41AD1BEF1C5B236E006BAE62 /* SplunkBrother.app */,
+				41AD1C081C5B236E006BAE62 /* SplunkBrotherTests.xctest */,
+				41AD1C131C5B236E006BAE62 /* SplunkBrotherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41AD1BF11C5B236E006BAE62 /* SplunkBrother */ = {
+			isa = PBXGroup;
+			children = (
+				41AD1BF51C5B236E006BAE62 /* AppDelegate.h */,
+				41AD1BF61C5B236E006BAE62 /* AppDelegate.m */,
+				41AD1BF81C5B236E006BAE62 /* ViewController.h */,
+				41AD1BF91C5B236E006BAE62 /* ViewController.m */,
+				41AD1BFB1C5B236E006BAE62 /* Main.storyboard */,
+				41AD1BFE1C5B236E006BAE62 /* Assets.xcassets */,
+				41AD1C001C5B236E006BAE62 /* LaunchScreen.storyboard */,
+				41AD1C031C5B236E006BAE62 /* Info.plist */,
+				41AD1BF21C5B236E006BAE62 /* Supporting Files */,
+			);
+			path = SplunkBrother;
+			sourceTree = "<group>";
+		};
+		41AD1BF21C5B236E006BAE62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41AD1BF31C5B236E006BAE62 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41AD1C0B1C5B236E006BAE62 /* SplunkBrotherTests */ = {
+			isa = PBXGroup;
+			children = (
+				41AD1C0C1C5B236E006BAE62 /* SplunkBrotherTests.m */,
+				41AD1C0E1C5B236E006BAE62 /* Info.plist */,
+			);
+			path = SplunkBrotherTests;
+			sourceTree = "<group>";
+		};
+		41AD1C161C5B236E006BAE62 /* SplunkBrotherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41AD1C171C5B236E006BAE62 /* SplunkBrotherUITests.m */,
+				41AD1C191C5B236E006BAE62 /* Info.plist */,
+			);
+			path = SplunkBrotherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41AD1BEE1C5B236E006BAE62 /* SplunkBrother */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AD1C1C1C5B236E006BAE62 /* Build configuration list for PBXNativeTarget "SplunkBrother" */;
+			buildPhases = (
+				41AD1BEB1C5B236E006BAE62 /* Sources */,
+				41AD1BEC1C5B236E006BAE62 /* Frameworks */,
+				41AD1BED1C5B236E006BAE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplunkBrother;
+			productName = SplunkBrother;
+			productReference = 41AD1BEF1C5B236E006BAE62 /* SplunkBrother.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41AD1C071C5B236E006BAE62 /* SplunkBrotherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AD1C1F1C5B236E006BAE62 /* Build configuration list for PBXNativeTarget "SplunkBrotherTests" */;
+			buildPhases = (
+				41AD1C041C5B236E006BAE62 /* Sources */,
+				41AD1C051C5B236E006BAE62 /* Frameworks */,
+				41AD1C061C5B236E006BAE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AD1C0A1C5B236E006BAE62 /* PBXTargetDependency */,
+			);
+			name = SplunkBrotherTests;
+			productName = SplunkBrotherTests;
+			productReference = 41AD1C081C5B236E006BAE62 /* SplunkBrotherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41AD1C121C5B236E006BAE62 /* SplunkBrotherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AD1C221C5B236E006BAE62 /* Build configuration list for PBXNativeTarget "SplunkBrotherUITests" */;
+			buildPhases = (
+				41AD1C0F1C5B236E006BAE62 /* Sources */,
+				41AD1C101C5B236E006BAE62 /* Frameworks */,
+				41AD1C111C5B236E006BAE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AD1C151C5B236E006BAE62 /* PBXTargetDependency */,
+			);
+			name = SplunkBrotherUITests;
+			productName = SplunkBrotherUITests;
+			productReference = 41AD1C131C5B236E006BAE62 /* SplunkBrotherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41AD1BE71C5B236E006BAE62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chris Foo";
+				TargetAttributes = {
+					41AD1BEE1C5B236E006BAE62 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XUQP7U3WBH;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					41AD1C071C5B236E006BAE62 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 41AD1BEE1C5B236E006BAE62;
+					};
+					41AD1C121C5B236E006BAE62 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 41AD1BEE1C5B236E006BAE62;
+					};
+				};
+			};
+			buildConfigurationList = 41AD1BEA1C5B236E006BAE62 /* Build configuration list for PBXProject "SplunkBrother" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41AD1BE61C5B236E006BAE62;
+			productRefGroup = 41AD1BF01C5B236E006BAE62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41AD1BEE1C5B236E006BAE62 /* SplunkBrother */,
+				41AD1C071C5B236E006BAE62 /* SplunkBrotherTests */,
+				41AD1C121C5B236E006BAE62 /* SplunkBrotherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41AD1BED1C5B236E006BAE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AD1C021C5B236E006BAE62 /* LaunchScreen.storyboard in Resources */,
+				41AD1BFF1C5B236E006BAE62 /* Assets.xcassets in Resources */,
+				41AD1BFD1C5B236E006BAE62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AD1C061C5B236E006BAE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AD1C111C5B236E006BAE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41AD1BEB1C5B236E006BAE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AD1BFA1C5B236E006BAE62 /* ViewController.m in Sources */,
+				41AD1BF71C5B236E006BAE62 /* AppDelegate.m in Sources */,
+				41AD1BF41C5B236E006BAE62 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AD1C041C5B236E006BAE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AD1C0D1C5B236E006BAE62 /* SplunkBrotherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AD1C0F1C5B236E006BAE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AD1C181C5B236E006BAE62 /* SplunkBrotherUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41AD1C0A1C5B236E006BAE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AD1BEE1C5B236E006BAE62 /* SplunkBrother */;
+			targetProxy = 41AD1C091C5B236E006BAE62 /* PBXContainerItemProxy */;
+		};
+		41AD1C151C5B236E006BAE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AD1BEE1C5B236E006BAE62 /* SplunkBrother */;
+			targetProxy = 41AD1C141C5B236E006BAE62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41AD1BFB1C5B236E006BAE62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AD1BFC1C5B236E006BAE62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41AD1C001C5B236E006BAE62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AD1C011C5B236E006BAE62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41AD1C1A1C5B236E006BAE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41AD1C1B1C5B236E006BAE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41AD1C1D1C5B236E006BAE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SplunkBrother/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Megadodo.SplunkBrother;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		41AD1C1E1C5B236E006BAE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SplunkBrother/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Megadodo.SplunkBrother;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		41AD1C201C5B236E006BAE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplunkBrotherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Megadodo.SplunkBrotherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplunkBrother.app/SplunkBrother";
+			};
+			name = Debug;
+		};
+		41AD1C211C5B236E006BAE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplunkBrotherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Megadodo.SplunkBrotherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplunkBrother.app/SplunkBrother";
+			};
+			name = Release;
+		};
+		41AD1C231C5B236E006BAE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SplunkBrotherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Megadodo.SplunkBrotherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplunkBrother;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		41AD1C241C5B236E006BAE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SplunkBrotherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Megadodo.SplunkBrotherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplunkBrother;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41AD1BEA1C5B236E006BAE62 /* Build configuration list for PBXProject "SplunkBrother" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AD1C1A1C5B236E006BAE62 /* Debug */,
+				41AD1C1B1C5B236E006BAE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AD1C1C1C5B236E006BAE62 /* Build configuration list for PBXNativeTarget "SplunkBrother" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AD1C1D1C5B236E006BAE62 /* Debug */,
+				41AD1C1E1C5B236E006BAE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41AD1C1F1C5B236E006BAE62 /* Build configuration list for PBXNativeTarget "SplunkBrotherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AD1C201C5B236E006BAE62 /* Debug */,
+				41AD1C211C5B236E006BAE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41AD1C221C5B236E006BAE62 /* Build configuration list for PBXNativeTarget "SplunkBrotherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AD1C231C5B236E006BAE62 /* Debug */,
+				41AD1C241C5B236E006BAE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41AD1BE71C5B236E006BAE62 /* Project object */;
+}
